@@ -114,12 +114,21 @@ body{
   clear:both;
 }
 
+#menu ul{
+  padding: 0px;
+}
+
 #menu li{
   display: inline;
   font-size: 24px;
+  padding: 0px 20px;
+  text-align: center;
 }
 
-
+#menu a{
+  text-decoration: none;
+  color:white;
+}
 
 
 
