@@ -130,7 +130,13 @@ body{
   color:white;
 }
 
-
+#content{
+  height: 474px;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size : 960px 474px;
+  background-position: 0px 50px;
+}
 
 
 
