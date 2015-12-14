@@ -170,6 +170,19 @@ h3{
   margin: 0 0 0 20px;
 }
 
+.callout{
+  height: 225px;
+  width: 320px;
+}
+
+.callout h3{
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.callout h3, .callout p{
+  margin-left: 50px;
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
