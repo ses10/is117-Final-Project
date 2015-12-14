@@ -125,7 +125,7 @@ body{
   text-align: center;
 }
 
-#menu a{
+#menu a, .cta_button {
   text-decoration: none;
   color:white;
 }
@@ -155,9 +155,20 @@ h3{
   padding-top: 15px;
 }
 
+.cta_button{
+  height: 135px;
+  width: 300px;
+  background-color: #0160ba;
+}
 
+#content .cta_button{
+  margin: 75px 25px 0 0;
+  font-size: 48px;
+}
 
-
+.cta_button p{
+  margin: 0 0 0 20px;
+}
 
 /* ==========================================================================
    Helper classes
