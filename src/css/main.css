@@ -138,23 +138,26 @@ body{
   background-position: 0px 50px;
 }
 
+h1,h2{
+  font-weight: bold;
+}
+
 h1,h3{
-  color: #034a8c;
   margin: 0px;
+  padding-top: 15px;
 }
 
 h1{
+  color: #034a8c;
+  margin: 0px;
   font-size: 60px;
   line-height: 65px;
-  padding-top: 15px;
 }
 
 h3{
   font-size: 21px;
   font-weight: normal;
-  padding-top: 15px;
 }
-
 .cta_button{
   height: 135px;
   width: 300px;
@@ -175,14 +178,37 @@ h3{
   width: 320px;
 }
 
-.callout h3{
-  font-weight: bold;
+.callout h2{
   margin-top: 25px;
+  margin-bottom: 10px;
 }
 
-.callout h3, .callout p{
+.callout h2, .callout p{
   margin-left: 50px;
-  }
+}
+.callout p{
+  margin-top: 0px;
+}
+
+#testimonials
+{
+  height: 474px;
+}
+
+#testimonials h2{
+  text-align: center;
+}
+
+#testimonials table td{
+  width: 480px;
+  padding-bottom: 60px;
+}
+
+#testimonials table p{
+  display: inline-block;
+  width: 245px;
+  margin-left: 25px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
