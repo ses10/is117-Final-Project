@@ -203,12 +203,13 @@ h3{
   text-align: center;
 }
 
-#testimonials table td{
-  width: 480px;
+.testimonial{
+  display: inline-block;
+  width: 477px;
   padding-bottom: 60px;
 }
 
-#testimonials table p{
+.testimonial p{
   display: inline-block;
   width: 245px;
   margin-left: 25px;
